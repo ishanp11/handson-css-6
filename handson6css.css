@@ -1,0 +1,254 @@
+body{
+    
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: cover;
+    background-image: url(./shara\ desert.jpg);
+    
+}
+.horse{
+    position: relative;
+    top: 50px;
+    left: 100px;
+
+}
+ul li{
+    color: antiquewhite;
+    list-style-type: none;
+    margin: 0px 20px;
+    display: block;
+    padding: 0px 10px;
+    float: right;
+    position: relative;
+    right: 200px;
+    text-decoration: none;
+}
+.menulogo{
+float: right;
+position: relative;
+left: 180px;
+bottom: 18px;
+
+}
+.sahara{
+    color: blanchedalmond;
+    font-size: xx-large;
+    font-weight: bolder;
+    position: relative;
+    top: 200px;
+    left: 200px;
+}
+.lorem{
+    color: beige;
+    position: relative;
+    top: 168px;
+    left: 100px;
+}
+.images{
+
+    display: grid;
+    grid-template-columns: 200px 200px;
+    row-gap: 20px;
+    column-gap: 40px;
+    float: right;
+    position: relative;
+    bottom: 155px;
+    right: 200px;
+    border-radius: 10px;
+    
+    
+}
+.image-1{
+    color: aliceblue;
+    background-image: url(./pic-1.png);
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    cursor: pointer;
+
+    
+}
+.image-2{
+    color: aliceblue;
+    background-image: url(./pic-2.png);
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    cursor: pointer;
+    
+    
+}
+.image-3{
+    color: aliceblue;
+    background-image: url(./pic-3.png);
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    cursor: pointer;
+    
+    
+}
+.image-4{
+    color: aliceblue;
+    background-image: url(./pic-4.png);
+    border-radius: 10px;
+    width: 200px;
+    height: 250px;
+    cursor: pointer;
+    
+    
+}
+.image-1:hover{
+
+    transform: translateY(-10px);
+}
+.image-2:hover{
+
+    transform: translateY(-10px);
+}
+.image-3:hover{
+
+    transform: translateY(-10px);
+}
+.image-4:hover{
+
+    transform: translateY(-10px);
+}
+.navbar ul li{
+
+}
+
+.button{
+    
+    width: 120px;
+    height: 30px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    left: 100px;
+    top: 190px;
+}
+/*Tablet view*/
+@media  screen and (min-width: 500px) and (max-width:800px){
+ body{
+    background-size: auto;
+
+ }
+ .images{
+    grid-template-columns: auto;
+    position: relative;
+    top: 8px;
+    left: -167px;
+ }
+
+.image-1{
+   width: 440px;
+
+   
+   
+}.image-2{
+    width: 440px;
+    
+ }.image-3{
+    width: 440px;
+    
+ }.image-4{
+    width: 440px;
+    
+ }
+ .images{
+    grid-template-columns: auto;
+    position: relative;
+    top: 8px;
+    left: -167px;
+ }
+ .horse{
+    position: relative;
+    bottom: 60px;
+    left: 70px;
+ }
+ ul li{
+    position: relative;
+    right: 102px;
+ }
+ .menulogo{
+    position: relative;
+    left: 258px;
+    bottom: 14px;
+ }
+ .button{
+    position: relative;
+    top: -21px;
+    left: 60px;
+ }
+ 
+.sahara{
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+.lorem{
+    position: relative;
+    top: -10px;
+
+}
+
+}
+/*Mobile views*/
+
+@media  screen and (min-width: 280px) and (max-width:500px)
+{
+    body{
+       background-size: auto;
+       margin: 0%;
+       padding: 0%;
+   
+    }
+    .images{
+        grid-template-columns: auto;
+        position: relative;
+        top: 71px;
+        left: -90px;
+        background-position: center;
+        
+}
+
+    .sahara{
+        color: whitesmoke;
+        position: relative;
+        top: 50px;
+        left: 20px;
+
+
+    }
+    .lorem{
+        color: whitesmoke;
+        position: relative;
+        top: 40px;
+        left: 20px;
+    }
+    .button{
+        position: relative;
+        top: 63px;
+        left:10px;
+    }
+    
+    .nav ul li{
+        color: antiquewhite;
+        list-style-type: none;
+        position: relative;
+        right: 10px;
+        top: 10px;
+        text-decoration: none;
+        display: block;
+    }
+    .horse{
+        position: relative;
+        left: 80px;
+    }
+    
+
+}
